@@ -1,0 +1,35 @@
+.Hobbies {
+    .hobby {
+        overflow: hidden;
+        color: #037fff;
+        .hobby-content {
+            margin-top: 1rem;
+            overflow: hidden;
+            display: flex;
+            .linkweb {
+                text-decoration: none;
+            }
+            .para {
+                margin: 1rem;
+                text-align: justify;
+            }
+            img {
+                margin: 1rem;
+                height: 9.5rem;
+                width: 9.5rem;
+                border-radius: 15px;
+                opacity: 0.7;
+                transition: all 0.4s ease-in-out;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    .hobby:nth-of-type(odd) {
+        color: #a4acc4;
+        .hobby-content {
+            flex-flow: row-reverse;
+        }
+    }
+}
