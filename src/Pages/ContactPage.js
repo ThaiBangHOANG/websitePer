@@ -38,8 +38,8 @@ function ContactPage() {
           />
           <ContactItem
             icon={location}
-            text1={"12 rue du Périgord, 59370 Mons en Baroeul"}
-            text2={"France"}
+            text1={"12 rue du Périgord,"}
+            text2={"59370 Mons en Baroeul, France"}
             title={"Address"}
           />
         </div>

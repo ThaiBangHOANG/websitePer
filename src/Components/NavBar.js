@@ -37,7 +37,7 @@ function NavBar() {
           </li>
         </ul>
         <footer className="footer">
-          <p>V1.0 @2021 Thai Bang</p>
+          <p>v1.0 @2021 Thai Bang</p>
         </footer>
       </nav>
     </div>
