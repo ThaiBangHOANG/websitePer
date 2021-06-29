@@ -1,6 +1,7 @@
 @import "./styles/layout";
 @import "./styles/about";
 @import "./styles/hobbies";
+@import "./styles/portfolio";
 @import "./styles/contact";
 @import "./styles/skill";
 @import "./styles/typography";
@@ -28,4 +29,14 @@ body {
   color: #a4acc4;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 1.2rem;
+}
+
+span {
+  color: #037fff;
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 70%;
+  }
 }

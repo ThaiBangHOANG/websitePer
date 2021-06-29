@@ -20,20 +20,20 @@ function ImageSection() {
           <div className="left-section">
             <p>Full Name</p>
             <p>Age</p>
+            <p>Status</p>
             <p>Nationality</p>
             <p>Languages</p>
-            <p>Address</p>
-            <p>City</p>
-            <p>Country</p>
+            <p>Personality</p>
+            <p>Working Attitude</p>
           </div>
           <div className="right-section">
             <p>: Thai Bang HOANG</p>
             <p>: 37 years old</p>
+            <p>: Married</p>
             <p>: Vietnamese</p>
             <p>: French, English, Vietnam</p>
-            <p>: 12 rue du Périgord</p>
-            <p>: 59370, Mons en Baroeul</p>
-            <p>: France</p>
+            <p>: Sens of humour, cheerful</p>
+            <p>: Teamwork, Autonomy</p>
           </div>
         </div>
         <button className="btn">

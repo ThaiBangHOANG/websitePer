@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyleHome = styled.div`
   #appear {
-    height: 4rem;
+    height: 5.5rem;
     overflow: hidden;
   }
 
@@ -13,7 +13,7 @@ const StyleHome = styled.div`
   }
 
   #appear div:first-child {
-    animation: show 6s linear infinite;
+    animation: show 8.5s linear infinite;
   }
 
   @keyframes show {

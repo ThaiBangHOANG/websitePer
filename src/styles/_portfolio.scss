@@ -1,0 +1,114 @@
+.PortfolioPage {
+}
+
+.portfolios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 3rem;
+
+    .porfolio {
+        .image-data {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 12px;
+                left: 15px;
+                height: calc(100% - 30px);
+                width: calc(100% - 30px);
+                background-color: #a4acc4;
+                transform-origin: center;
+                border-radius: 20px;
+                transform: scale(0);
+                transition: all 0.4s ease-in-out;
+                opacity: 0.9;
+            }
+            &:hover::before {
+                transform: scale(1);
+            }
+            .hover-items {
+                list-style: none;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 1rem 2rem;
+                visibility: hidden;
+                border-radius: 10px;
+                li {
+                    a {
+                        padding: 1rem;
+                        border-radius: 10px;
+                        text-decoration: none;
+                        font-family: inherit;
+                        background-color: #037fff;
+                        color: white;
+                        &:not(:last-child) {
+                            margin-right: 2rem;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                .hover-items {
+                    transition: all 0.5s ease-in-out 0.2s;
+                    visibility: visible;
+                    top: 50%;
+                }
+            }
+
+            img {
+                width: 15vw;
+                height: 30vh;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+        }
+
+        h2 {
+            color: white;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: #037fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.btnPort {
+    padding: 0.5rem 2rem;
+    background-color: #0381ff5b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    color: rgba(255, 255, 255, 0.884);
+    margin-bottom: 3rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    &:not(:last-child) {
+        margin-right: 1rem;
+    }
+    &:hover {
+        background-color: #037fff;
+    }
+    &:active {
+        background-color: #037fff;
+    }
+    &:focus {
+        background-color: #037fff;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem -6rem;
+    flex-wrap: no-wrap;
+}

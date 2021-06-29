@@ -26,8 +26,8 @@ function ContactPage() {
         <div className="contact-sect">
           <ContactItem
             icon={phone}
-            text1={"+33 3 76 05 84 87"}
-            text2={"+33 6 36 16 83 67"}
+            text1={"Fixed : +33.03.76.05.84.87"}
+            text2={"Mobile: +33.06.36.16.83.67"}
             title={"Phone"}
           />
           <ContactItem
@@ -39,7 +39,7 @@ function ContactPage() {
           <ContactItem
             icon={location}
             text1={"12 rue du Périgord,"}
-            text2={"59370 Mons en Baroeul, France"}
+            text2={"59370, Mons en Baroeul, France"}
             title={"Address"}
           />
         </div>
