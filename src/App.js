@@ -7,6 +7,7 @@ import AboutPage from "./Pages/AboutPage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import HobbiesPage from "./Pages/HobbiesPage";
 import ContactPage from "./Pages/ContactPage";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -44,6 +45,7 @@ function App() {
               <ContactPage />
             </Route>
           </Switch>
+          <ScrollToTop smooth color="#a4acc4" style={{ marginTop: "50vh" }} />
         </div>
       </div>
     </div>

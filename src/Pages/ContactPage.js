@@ -30,12 +30,14 @@ function ContactPage() {
             text2={"Mobile: +33.06.36.16.83.67"}
             title={"Phone"}
           />
-          <ContactItem
-            icon={email}
-            text1={"thaibang1983hn@gmail.com"}
-            text2={""}
-            title={"Email"}
-          />
+          <a href="mailto: thaibang1983hn@gmail.com" className="duong">
+            <ContactItem
+              icon={email}
+              text1={"thaibang1983hn@gmail.com"}
+              text2={""}
+              title={"Email"}
+            />
+          </a>
           <ContactItem
             icon={location}
             text1={"12 rue du Périgord,"}
