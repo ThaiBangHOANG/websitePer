@@ -45,7 +45,15 @@ function App() {
               <ContactPage />
             </Route>
           </Switch>
-          <ScrollToTop smooth color="#a4acc4" style={{ marginTop: "50vh" }} />
+          <ScrollToTop
+            smooth
+            color="#a4acc4"
+            style={{
+              marginTop: "50vh",
+              backgroundColor: "transparent",
+              boxShadow: "none",
+            }}
+          />
         </div>
       </div>
     </div>

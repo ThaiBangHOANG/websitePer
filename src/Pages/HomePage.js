@@ -1,7 +1,6 @@
 import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import StyleHome from "../Components/StyleHome";
 
@@ -43,14 +42,6 @@ function HomePage() {
               className="icon-holder"
             >
               <FontAwesomeIcon icon={faLinkedin} className="icon lk" />
-            </a>
-            <a
-              href="https://www.instagram.com/bang_galaxy"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-holder"
-            >
-              <FontAwesomeIcon icon={faInstagram} className="icon ig" />
             </a>
           </div>
         </header>

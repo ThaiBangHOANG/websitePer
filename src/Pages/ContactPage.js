@@ -15,7 +15,7 @@ function ContactPage() {
         <div className="map-sect">
           <iframe
             title="mapLocation"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.117135848623!2d3.1103268150651777!3d50.64351567950244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329e4ac3f1d13%3A0x6dd0bce92819d3b9!2s12%20Rue%20du%20P%C3%A9rigord%2C%2059370%20Mons-en-Bar%C5%93ul!5e0!3m2!1sen!2sfr!4v1623613702216!5m2!1sen!2sfr"
+            src="https://maps.google.com/maps?q=mons%20en%20baroeul&t=&z=13&ie=UTF8&iwloc=&output=embed"
             width="600"
             height="450"
             style={{ border: 0 }}
@@ -26,8 +26,8 @@ function ContactPage() {
         <div className="contact-sect">
           <ContactItem
             icon={phone}
-            text1={"Fixed : +33.03.76.05.84.87"}
-            text2={"Mobile: +33.06.36.16.83.67"}
+            text1={"Fixed: 03.76.05.84.87"}
+            text2={"Mobil: 06.36.16.83.67"}
             title={"Phone"}
           />
           <a href="mailto: thaibang1983hn@gmail.com" className="duong">
@@ -40,8 +40,8 @@ function ContactPage() {
           </a>
           <ContactItem
             icon={location}
-            text1={"12 rue du Périgord,"}
-            text2={"59370, Mons en Baroeul, France"}
+            text1={"59370, Mons en Baroeul,"}
+            text2={"Hauts de France"}
             title={"Address"}
           />
         </div>

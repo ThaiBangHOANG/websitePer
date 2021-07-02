@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import Title from "../Components/AboutContactTitle";
-import Categories from "../Components/Categories";
+import All from "../Components/All";
 import MenuItems from "../Components/MenuItems";
 import Portfolio from "../Components/Portfolio";
 
 const allCategories = [
-  "Categories",
+  "All",
   ...new Set(Portfolio.map((item) => item.category)),
 ];
 function PortfolioPage() {
@@ -14,7 +14,7 @@ function PortfolioPage() {
   const [menuItems, setMenuItems] = useState(Portfolio);
 
   const filter = (category) => {
-    if (category === "Categories") {
+    if (category === "All") {
       setMenuItems(Portfolio);
       return;
     }
@@ -31,7 +31,7 @@ function PortfolioPage() {
         <Title title={"Portfolios"} span={"Portfolios"} />
       </div>
       <div className="portfolios-data">
-        <Categories filter={filter} categories={categories} />
+        <All filter={filter} categories={categories} />
         <MenuItems menuItem={menuItems} />
       </div>
     </div>

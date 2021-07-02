@@ -1,6 +1,6 @@
 import React from "react";
 
-function Categories({ filter, categories }) {
+function All({ filter, categories }) {
   return (
     <div className="button">
       {categories.map((catego, index) => {
@@ -19,4 +19,4 @@ function Categories({ filter, categories }) {
   );
 }
 
-export default Categories;
+export default All;

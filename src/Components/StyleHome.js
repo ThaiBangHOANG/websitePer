@@ -20,23 +20,8 @@ const StyleHome = styled.div`
     0% {
       margin-top: -360px;
     }
-    5% {
-      margin-top: -180px;
-    }
-    15% {
-      margin-top: -120px;
-    }
-    25% {
-      margin-top: -90px;
-    }
-    50% {
-      margin-top: 0px;
-    }
-    75% {
-      margin-top: 90px;
-    }
     100% {
-      margin-top: 90px;
+      margin-top: 30px;
     }
   }
 `;
