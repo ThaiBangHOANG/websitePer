@@ -44,7 +44,7 @@ const Hobbies = [
     image: football,
     title: "The club in my heart",
     paragraph:
-      "King of sport? The easy answer is FOOTBALL. I love this sport, and I love the Manchester United Club. This passion has followed me from the time that I was a child. Cheer up with me about this hobby.",
+      "King of sport? The easy answer is SOCCER. I love this sport, and I love the Manchester United Club. This passion has followed me from the time that I was a child. Cheer up with me about this hobby.",
     link: "https://www.manutd.com/",
   },
   {
