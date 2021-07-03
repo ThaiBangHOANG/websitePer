@@ -1,5 +1,6 @@
 {
   "name": "portfolio-thaibang",
+  "homepage": "https://hoangthaibang.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
